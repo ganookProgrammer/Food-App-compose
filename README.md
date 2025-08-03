@@ -27,8 +27,6 @@
 
 ---
 
-## 🧱 Screens
-
 ### 📱 Screenshots
 
 <div align="center">
@@ -41,7 +39,7 @@
   </tr>
   <tr>
     <td><img src="assets/home_screen.jpg" width="250"/></td>
-    <td><img src="assets/"List of items.jpg" width="250"/></td>
+    <td><img src="assets/list_items.jpg" width="250"/></td>
     <td><img src="assets/food_detail_screen.jpg" width="250"/></td>
   </tr>
 </table>
@@ -50,11 +48,9 @@
 
 ---
 
----
-
 ## 📺 Tutorial Reference
 
 This project was built by following the tutorial:  
-[👉 Food App with Jetpack Compose and Firebase - YouTube][(https://www.youtube.com/your-video-link-here)](https://www.youtube.com/watch?v=kY5GCCJTL8Y&list=PLfcLDE6VDKRi0iF7s20Aukkvek4FydSTh)  
+[👉 Food App with Jetpack Compose and Firebase - YouTube][(https://www.youtube.com/watch?v=kY5GCCJTL8Y&list=PLfcLDE6VDKRi0iF7s20Aukkvek4FydSTh)]  
 Credits to [UiLover] for the guidance and inspiration.
 
