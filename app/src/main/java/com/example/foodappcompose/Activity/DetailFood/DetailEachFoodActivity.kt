@@ -72,7 +72,7 @@ fun DetailScreen(item: FoodModel, onBackClick: () -> Unit, onAddToCartClick: () 
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(colorResource(R.color.lightOrange))
+                .background(colorResource(R.color.grey))
                 .verticalScroll(rememberScrollState())
                 .constrainAs(column) {
                     top.linkTo(parent.top)
@@ -110,6 +110,16 @@ fun DetailScreen(item: FoodModel, onBackClick: () -> Unit, onAddToCartClick: () 
 
             RowDetail(item)
             DescriptionSection(item.Description)
+            RecommendedList()
         }
+        FooterSection(
+            onAddToCartClick,
+            totalPrice = ((item.Price*numberInCart).toDouble()),
+            Modifier.constrainAs(footer) {
+                bottom.linkTo(parent.bottom)
+                end.linkTo(parent.end)
+                start.linkTo(parent.start)
+            }
+        )
     }
 }

@@ -81,7 +81,7 @@ private fun ItemListScreen(
 
     Column(
         modifier = Modifier
-            .background(colorResource(R.color.lightOrange))
+            .background(colorResource(R.color.grey))
     ) {
 
         ConstraintLayout(modifier = Modifier.padding(top = 36.dp, start = 16.dp, end = 16.dp)) {

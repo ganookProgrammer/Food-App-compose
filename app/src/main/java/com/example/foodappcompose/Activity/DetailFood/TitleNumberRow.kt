@@ -90,7 +90,7 @@ fun TitleNumberRow(
                         top.linkTo(parent.top)
                         bottom.linkTo(parent.bottom)
                     }
-                    .clickable{onIncrement}
+                    .clickable{onIncrement()}
             ){
                 Text(
                     text = "+",
@@ -115,7 +115,7 @@ fun TitleNumberRow(
                         top.linkTo(parent.top)
                         bottom.linkTo(parent.bottom)
                     }
-                    .clickable{onDecrement}
+                    .clickable{onDecrement()}
             ){
                 Text(
                     text = "-",
