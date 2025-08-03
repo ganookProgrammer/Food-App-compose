@@ -40,9 +40,9 @@
     <th>📄 Food Details</th>
   </tr>
   <tr>
-    <td><img src="assets/home_screen.png" width="250"/></td>
+    <td><img src="assets/home_screen.jpg" width="250"/></td>
     <td><img src="assets/"List of items.jpg" width="250"/></td>
-    <td><img src="assets/food_detail_screen.png" width="250"/></td>
+    <td><img src="assets/food_detail_screen.jpg" width="250"/></td>
   </tr>
 </table>
 
